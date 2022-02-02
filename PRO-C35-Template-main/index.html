@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    
+    <script src="p5.play.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js"></script>
+
+    <!--Add your Firsebase Config here below. -->
+    <script>// Import the functions you need from the SDKs you need
+      import { initializeApp } from "firebase/app";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+      
+      // Your web app's Firebase configuration
+      const firebaseConfig = {
+        apiKey: "AIzaSyBrI6KaZxNx3qUyenUNusqnCCj7u9_u8jw",
+        authDomain: "project-35b.firebaseapp.com",
+        databaseURL: "https://project-35b-default-rtdb.firebaseio.com",
+        projectId: "project-35b",
+        storageBucket: "project-35b.appspot.com",
+        messagingSenderId: "309792003598",
+        appId: "1:309792003598:web:0ad0f5c367616e98730e5f"
+      };
+      
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);</script>
+   
+
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <meta charset="utf-8">
+
+  </head>
+  <body>
+      <script src="sketch.js"></script>
+    </body>
+</html>
